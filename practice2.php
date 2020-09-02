@@ -4,22 +4,23 @@
 $name = "高野ひなた";
 
 if ($name == "高野ひなた") {
-    echo "私は $name です。" . PHP_EOL;
+    echo "私は $name です。" . "\n";
 } else {
-    echo "$name ではありません。" . PHP_EOL;
+    echo "$name ではありません。" . "\n" ;
 }
 
 
 
 //課題２
 $total = 0;
-echo $total . PHP_EOL;
+echo $total . "\n";
+
 
 for ($i = 1; $i <= 10000; $i++) {
     $total += $i;
 }
 
-echo $total . PHP_EOL;
+echo $total . "\n";
 
 
 
@@ -27,7 +28,7 @@ echo $total . PHP_EOL;
 $fruits = array("banana", "lemon", "cherry", "pineapple", "peach");
 
 foreach($fruits as $fruit){
-    echo $fruit . PHP_EOL;
+    echo $fruit . "\n";
 }
 
 
@@ -40,4 +41,6 @@ $end = 100;
          echo $i . PHP_EOL;
      }
  }
+ 
+ 
  
